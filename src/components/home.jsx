@@ -12,7 +12,7 @@ function Home() {
             <Router>
                 <SideDrawer />
                 <Routes>
-                    <Route path='/' element={<Notes />} />
+                    <Route path='/notes' element={<Notes />} />
                     <Route path='/archive' element={<ArchiveNotes />} />
                     <Route path='/delete' element={<DeleteNotes />} />
                 </Routes>
